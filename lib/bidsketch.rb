@@ -4,6 +4,7 @@ require "bidsketch/bidsketch_object"
 require "bidsketch/client"
 require "bidsketch/fee"
 require "bidsketch/proposal"
+require "bidsketch/section"
 
 module Bidsketch
   class << self

@@ -1,5 +1,5 @@
 RSpec.shared_examples 'a listable object' do |subject, attributes = []|
-  let(:object) { VCR.use_cassette("#{subject.class.to_s}") { subject.class.all } }
+  let(:list) { VCR.use_cassette(subject.to_s) { subject.all } }
 
   it "should return an array of objects" do
     expect(list.class).to eq Array

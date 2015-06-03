@@ -5,7 +5,8 @@ describe Bidsketch::Fee, vcr: true do
   ]   
 
 
-  it_should_behave_like 'a findable object',  180219, [:id, :name, :url, :app_url, :created_at, :updated_at,
+  it_should_behave_like 'a findable object',  180219, [
+    :id, :name, :url, :app_url, :created_at, :updated_at,
     :quantity, :category, :total, :currency, :amount, :unit,
     :details, :feetype, :description
   ]
