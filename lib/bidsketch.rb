@@ -2,6 +2,7 @@ require "bidsketch/version"
 require "bidsketch/api"
 require "bidsketch/bidsketch_object"
 require "bidsketch/client"
+require "bidsketch/fee"
 
 module Bidsketch
   class << self
