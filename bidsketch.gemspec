@@ -8,9 +8,8 @@ Gem::Specification.new do |spec|
   spec.version       = Bidsketch::VERSION
   spec.authors       = ["Dylan Montgomery"]
   spec.email         = ["mail@citizensinspace.com"]
-  spec.summary       = %q{TODO: Write a short summary. Required.}
-  spec.description   = %q{TODO: Write a longer description. Optional.}
-  spec.homepage      = ""
+  spec.summary       = %q{Ruby wrapper for the Bidsketch API}
+  spec.homepage      = "https://github.com/citizens/bidsketch-ruby"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")
