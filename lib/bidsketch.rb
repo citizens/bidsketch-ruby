@@ -3,6 +3,7 @@ require "bidsketch/api"
 require "bidsketch/bidsketch_object"
 require "bidsketch/client"
 require "bidsketch/fee"
+require "bidsketch/proposal"
 
 module Bidsketch
   class << self
