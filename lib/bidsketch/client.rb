@@ -1,14 +1,14 @@
 module Bidsketch
-  class Client
+  class Client < BidsketchObject
     class << self
       def all
-        Bidsketch::API.get('/clients.json').map { |client| OpenStruct.new(client) }
+        Bidsketch::API.get('/clients.json').map { |client| self.new(client) }
       end
 
       def find(id)
         response = Bidsketch::API.get("/clients/#{id}.json")
         if response
-          OpenStruct.new(response)
+          self.new(response)
         end
       end
     end

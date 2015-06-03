@@ -1,5 +1,6 @@
 require "bidsketch/version"
 require "bidsketch/api"
+require "bidsketch/bidsketch_object"
 require "bidsketch/client"
 
 module Bidsketch
